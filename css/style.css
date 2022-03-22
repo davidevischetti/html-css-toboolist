@@ -5,15 +5,19 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* Stile intestazione */
-header {
+/* Stile contenuto della pagina */
+#container {
     width: 80%;
+    height: 1000px;
+    background-color: #eee;
+    margin: 10px auto;
+    border-top: 1px solid #eee;
+}
+
+/* Stile header */
+header {
     background-color: #fff;
-    border-top: 2px solid #eee;
-    margin: 5px auto;
-    padding-left: 5px;
-    
-   
+    padding-bottom: 10px;
 }
 
 #logo {  
@@ -30,4 +34,35 @@ header {
     display: inline;
     font-size: 40px;
     vertical-align: middle;
+}
+
+/* Stile nav */
+
+.nav-bar {
+    width: 80%;
+    height: 50px;
+    background-color: #fff;
+    margin: 5% auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.add {
+    display: inline-block;
+    height: 30px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    line-height: 30px;
+    vertical-align: middle;
+    margin-top: 10px;
+    padding: 0 10px;
+    font-weight: 500;
+    color: #ddd;
+}
+
+.add.blue {
+    border: 2px solid #09f;
+    background-color: #09f;
+    font-size: 15px;
+    color: #fff;
+    margin-left: 10%;
 }
