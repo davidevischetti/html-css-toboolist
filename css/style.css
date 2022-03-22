@@ -37,12 +37,11 @@ header {
 }
 
 /* Stile nav */
-
-.nav-bar {
+#nav-bar {
     width: 80%;
     height: 50px;
     background-color: #fff;
-    margin: 5% auto;
+    margin: 5% auto 0 auto;
     border-radius: 5px 5px 0 0;
 }
 
@@ -64,5 +63,40 @@ header {
     background-color: #09f;
     font-size: 15px;
     color: #fff;
-    margin-left: 10%;
+    margin-left: 80px;
+}
+
+/* Stile main */
+#tasks-list {
+    width: 80%;
+    height: 800px;
+    background-color: #fff;
+    margin: 3px auto;
+    border-radius: 0 0 5px 5px;
+    padding: 50px 80px;
+}
+
+#tasks-list section {
+    margin-bottom: 50px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.check {
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.area {
+    background-color: #000;
+    border-radius: 15px;
+    color: white;
+    font-size: 12px;
+    padding: 8px;
 }
