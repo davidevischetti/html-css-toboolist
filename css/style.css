@@ -8,10 +8,10 @@
 /* Stile contenuto della pagina */
 #container {
     width: 80%;
-    height: 1000px;
     background-color: rgba(245, 245, 245, 0.6);
     margin: 10px auto;
     border-top: 1px solid #ddd;
+    padding-bottom: 50px;
 }
 
 /* Stile header */
