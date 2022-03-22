@@ -9,9 +9,9 @@
 #container {
     width: 80%;
     height: 1000px;
-    background-color: #eee;
+    background-color: rgba(245, 245, 245, 0.6);
     margin: 10px auto;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #ddd;
 }
 
 /* Stile header */
@@ -59,8 +59,8 @@ header {
 }
 
 .add.blue {
-    border: 2px solid #09f;
-    background-color: #09f;
+    border: 2px solid #0af;
+    background-color: #0af;
     font-size: 15px;
     color: #fff;
     margin-left: 80px;
@@ -69,7 +69,6 @@ header {
 /* Stile main */
 #tasks-list {
     width: 80%;
-    height: 800px;
     background-color: #fff;
     margin: 3px auto;
     border-radius: 0 0 5px 5px;
@@ -82,21 +81,60 @@ header {
 
 .text {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 20px;
 }
 
+/* Stile spunte */
 .check {
-    border: 2px solid black;
     border-radius: 30px;
     padding: 0 5px;
     font-weight: bold;
 }
 
+.check.done {
+    border: 2px solid #0c0;
+    color: #0c0;
+}
+
+.check.undone {
+    border: 2px solid #c00;
+    color: #c00;
+}
+
+/* Stile aree */
 .area {
     background-color: #000;
     border-radius: 15px;
     color: white;
-    font-size: 12px;
-    padding: 8px;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.area.blue {
+    background-color: #0af;
+}
+
+.area.purple {
+    background-color: #909;
+}
+
+.area.green {
+    background-color: #0c0;
+}
+
+.area.orange {
+    background-color: #f90;
+}
+
+.area.pink {
+    background-color: #f5f;
+}
+
+.area.yellow-green {
+    background-color: #790;
+}
+
+.area.none {
+    display: none;
 }
